@@ -1,2 +1,2 @@
 FROM  alpine
-RUN apk add nginx -y
+RUN apk add --no-cache nginx
