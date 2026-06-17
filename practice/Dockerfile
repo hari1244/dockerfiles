@@ -1,2 +1,2 @@
 FROM  alpine
-RUN dnf install nginx -y
+RUN apk add nginx -y
